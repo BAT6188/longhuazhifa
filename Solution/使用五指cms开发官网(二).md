@@ -20,4 +20,4 @@ grammar_cjkRuby: true
   [1]: http://xxx.freeimage.us/image.php?id=D25D_58646EE1
   [2]: http://xxx.freeimage.us/image.php?id=A34A_58647103
   [3]: https://www.wuzhicms.com/doc/
-  [4]: http://xxx.freeimage.us/image.php?id=9AE2_586472BF
+  [4]: http://xxx.freeimage.us/image.php?id=70CC_586473A3
