@@ -9,7 +9,7 @@ grammar_cjkRuby: true
  2. 进入wuzhicms管理后台 “系统设置”-->“基本设置” 对网站进行设置 然后保存，四部曲，首页刷新，查看效果 ![index][2]![edit][3]
  3.  但是由于系统原因，我们并不能对首页的title和copyright进行修改，需要我们手动去修改 “www/index.html” 文件
  4.  接下来同理修改其它页面
-
+ 5.  很多时候我们也不要自己去设置导航栏的菜单， 我们可以在后台管理页面进行添加
 
   [1]: https://www.wuzhicms.com/doc/
   [2]: http://xxx.freeimage.us/image.php?id=2623_58647DC1
