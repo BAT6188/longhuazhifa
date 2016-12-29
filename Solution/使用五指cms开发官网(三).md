@@ -10,7 +10,26 @@ grammar_cjkRuby: true
  3.  但是由于系统原因，我们并不能对首页的title和copyright进行修改，需要我们手动去修改 “www/index.html” 文件
  4.  接下来同理修改其它页面
  5.  很多时候我们也不要自己去设置导航栏的菜单， 我们可以在后台管理页面进行添加，“发布内容”-->“栏目管理” 进行添加，这里需要注意区分什么叫单页什么叫列表(可以简单理解单页就是这个页面不会再有超链接挑战到新的页面，列表反之)，选择类型选择“文章类型”，在“模板设置”，进行页面配置
+ 6.  替换head.html文件中的导航设置 [查询api得知][4]， 可以通过以下方式进行获取
+``` mel
+{wz:content action="category" pagesize="100" order="sort ASC"}
+    {loop $rs $r}
+    {if $r['pid']==0 && $r['ismenu']}
+    {$r['name']}
+        {if $r['child']}
+        {loop $rs $rn}
+            {if $rn['pid']==$r['cid']}{$rn['name']}{/if}
+                {/loop}
+        {/if}
+    
+    {/if}
+    {/loop}
+    {/wz}
+```
+
+
 
   [1]: https://www.wuzhicms.com/doc/
   [2]: http://xxx.freeimage.us/image.php?id=2623_58647DC1
   [3]: http://xxx.freeimage.us/image.php?id=0C3C_58647FA9
+  [4]: https://www.wuzhicms.com/item-34-3-1.html
