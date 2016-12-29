@@ -14,5 +14,23 @@ grammar_cjkRuby: true
  7. 然后进入到管理后台进行 “更新缓存”，“一键全部更新”，“生成首页”，“站点首页”  操作，这时我们页面会跳转到首页，和我们静态页面一样，但是没有样式文件。如图所示 ![首页][2]
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   [1]: http://xxx.freeimage.us/image.php?id=D25D_58646EE1
   [2]: http://xxx.freeimage.us/image.php?id=A34A_58647103
