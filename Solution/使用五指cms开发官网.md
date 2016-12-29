@@ -21,7 +21,8 @@ phpstudy：http://www.phpstudy.net/
  11. 安装完成，点击登陆网站后台
  12. 输入账号和密码进行管理后台登陆
  13. 如图所示 ![enter description here][2]
- 14. 点击页头“更新缓存”，“一键全部更新”，“生成首页”，“站点首页” 将会进入到五指cms的默认的模板：如图所示![enter description here][3]。
+ 14. 点击页头“更新缓存”，“一键全部更新”，“生成首页”，“站点首页” 将会进入到五指cms的默认的模板：如图所示![enter description here][3]
+ 15. 到此为止，五指cms 安装完成
 
 
   [1]: http://xxx.freeimage.us/image.php?id=1E9C_586464EA "1482974384376.jpg"
