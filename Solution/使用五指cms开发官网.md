@@ -14,7 +14,13 @@ phpstudy：http://www.phpstudy.net/
  4. 修改phpstudy常规设置，修改网站目录为我们五指cms 目录 见【2】 如图所示 ![enter description here][1]
  5. 修改完成返回到phpstudy主界面，点击“启动”来启动我们的php依赖环境
  6. 打开浏览器输入“127.0.0.1/”  如果能看到 "Forbidden" 或者是 "php探针" 相关字眼表示php环境搭建完成。
- 7. 再在地址栏输入 “127.0.0.1/www/”(因为我们已经修改了我们的phpstudy常规环境所以直接输入www 即可访问到五指cms的页面)
+ 7. 再在地址栏输入 “127.0.0.1/www/install/”(因为我们已经修改了我们的phpstudy常规环境所以直接输入www 即可访问到五指cms的页面)进入到五指cms 安装页面("五指cms 3.1.3 安装五部曲")
+ 8. 点击“开始安装”-->“下一步”-->填写相关账号配置以及数据库信息和管理员信息(数据库相关信息可以通过phpstudy解压完成后的说明文档中查看到)
+ 9. 点击开始安装(默认勾选需要初始化演示数据)
+ 10. 等待安装完成··········
+ 11. 安装完成，点击登陆网站后台
+ 12. 输入账号和密码进行管理后台登陆
+ 13. 如图所示 ![enter description here][2]
 
 
 
@@ -23,3 +29,4 @@ phpstudy：http://www.phpstudy.net/
 
 
   [1]: http://xxx.freeimage.us/image.php?id=1E9C_586464EA "1482974384376.jpg"
+  [2]: http://xxx.freeimage.us/image.php?id=AFCE_5864689D "14829743843g6.jpg"
