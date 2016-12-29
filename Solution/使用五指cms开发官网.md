@@ -4,7 +4,7 @@ tags: 五指,cms,官网
 grammar_cjkRuby: true
 ---
 
-## 开始开发
+## 一、开始开发
 五指官网：https://www.wuzhicms.com/
 phpstudy：http://www.phpstudy.net/
 
