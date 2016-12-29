@@ -1,0 +1,8 @@
+---
+title: 使用五指cms开发官网(三)
+tags: 五指,cms,官网
+grammar_cjkRuby: true
+---
+
+## 三、页面其它绑定
+ 1. 很多时候，我们的seo设置和页面的一些公共部分通常不用经常自己去修改，我们对五指进行重新安装，访问“127.0.0.1/www/install/” 会提示 “已经安装过wuzhicms，如需重装请删除caches/lock.install” 进入到五指cms 程序包目录 删除 “caches/lock.install” 文件
