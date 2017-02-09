@@ -68,5 +68,5 @@ keywords:
 > 解析代码：
 > 需要注意的是：反馈的from提交地址。然后name需要对应到数据库字段，且name命名为form['colname']
 
-开发时返回功能可以写在其它页面，但是目录必须要feedback.html 文件可以用五指cms 默认模板拷贝过来
+开发时反馈功能可以写在其它页面，但是目录必须要feedback.html 文件可以用五指cms 默认模板拷贝过来
 
