@@ -70,3 +70,4 @@ keywords:
 
 开发时反馈功能可以写在其它页面，但是目录必须要feedback.html 文件可以用五指cms 默认模板拷贝过来
 
+开发手机版只需要在项目目录content里面添加mobile目录即可，但是mobile目录中的文件只能被解析content中有的文件，所以最好做到一一对应。
