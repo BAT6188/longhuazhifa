@@ -25,7 +25,8 @@ grammar_cjkRuby: true
     {/loop}
     {/wz}
 ```
-7.  
+解析以上代码：
+因为我们要获取菜单，所以action必须使用category，pagesize:分页大小，order:同mysql order by 排序使用
 
 
 
