@@ -93,7 +93,7 @@ grammar_cjkRuby: true
 {/loop} 
 {/wz}
 ```
-> 对比文章模型 不一样的地方有，modelid 变为了5 上面有解释到，
+> 对比文章模型 不一样的地方有，modelid 变为了5 上面有解释到，<br/>
 > 另外在取值的时候 有一个string2array 因为五指在保存数据的时候把图片组转换为了string类型，所以我们需要转为array才能继续循环使用，pictures 组图， url 组图链接，alt 组图注释。其它字段或者其它注释可以查询数据库得知
 
  
