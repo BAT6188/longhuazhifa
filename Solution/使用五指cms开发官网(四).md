@@ -80,4 +80,21 @@ grammar_cjkRuby: true
 > 因为页面是通过列表跳转，所以我们不需要其它操作，我们只要在配置的跳转的指定页面中编写获取字段就好
 > {WEBURL} 表示网站站点位置，参考后台配置，{R}资源根目录
  
+ 另外上面介绍的都是文章模型，下面来解析图片模型
+ 常用代码为：
+
+``` dust
+ {wz:content action="listing" pagesize="1" modelid="5" moredata="1" order="sort DESC" cid="30" urlrule="$urlrule" }
+ {loop $rs $r}
+  {loop string2array($r[pictures]) $rr}
+    <img src="{$rr['url']}">
+    <p>{$rr['alt']}</p>
+  {/loop}
+{/loop} 
+{/wz}
+```
+> 对比文章模型 不一样的地方有，modelid 变为了5 上面有解释到，
+> 另外在取值的时候 有一个string2array 因为五指在保存数据的时候把图片组转换为了string类型，所以我们需要转为array才能继续循环使用，pictures 组图， url 组图链接，alt 组图注释。其它字段或者其它注释可以查询数据库得知
+
+ 
 
