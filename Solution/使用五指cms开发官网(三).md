@@ -1,5 +1,5 @@
 ---
-title: 使用五指cms开发官网(三)
+title: 使用五指cms开发官网(三).md
 tags: 五指,cms,官网
 grammar_cjkRuby: true
 ---
@@ -20,13 +20,12 @@ grammar_cjkRuby: true
             {if $rn['pid']==$r['cid']}{$rn['name']}{/if}
                 {/loop}
         {/if}
+    
     {/if}
     {/loop}
     {/wz}
 ```
-
-> 解析以上代码： 因为我们要获取菜单，所以action必须使用category，pagesize:分页大小，order:同mysql
-> order by 排序使用
+7.  
 
 
 
