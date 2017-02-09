@@ -34,4 +34,35 @@ keywords:
 
 ```
 
+如需使用反馈功能请添加feedback.html并参考以下代码：
+
+``` applescript
+ <form action="index.php?m=feedback&f=index&v=contact" method="post">
+        <div  class="form-inline" style="margin-bottom: 15px;">
+
+            <div class="form-group">
+                <label for="exampleInputName2">姓名<span class="color_danger">*</span></label>
+                <input type="text" name="form[linkman]" class="form-control" id="exampleInputName2" placeholder="姓名" required>
+            </div>
+            <div class="form-group" style="margin-right: 100px;"></div>
+            <div class="form-group">
+                <label for="exampleInputEmail2">联系邮箱 <span class="color_danger">*</span></label>
+                <input type="email" name="form[email]" class="form-control" id="exampleInputEmail2" placeholder="xxx@xxx.com" required>
+            </div>
+        </div>
+        <div class="form-box">
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea name="form[content]" class="form-control" rows="10" placeholder="请详细的输入反馈问题" required></textarea>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class=" form-inline text-center" >
+            <input type="hidden" name="form[forward]" value="{$forward}">
+            <button type="submit" name="submit" class="btn btn-warning  btn-lg" >&nbsp;&nbsp;&nbsp;提交&nbsp;&nbsp;&nbsp;</button>
+        </div>
+    </form>
+```
+开发时返回功能可以写在其它页面，但是目录必须要feedback.html 文件可以用五指cms 默认模板拷贝过来
 
