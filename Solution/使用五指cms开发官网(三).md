@@ -20,7 +20,6 @@ grammar_cjkRuby: true
             {if $rn['pid']==$r['cid']}{$rn['name']}{/if}
                 {/loop}
         {/if}
-    
     {/if}
     {/loop}
     {/wz}
