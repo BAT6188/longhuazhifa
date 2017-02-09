@@ -1,6 +1,6 @@
 ---
 title: 使用五指cms开发官网(四)
-tags: 新建,模板,小书匠
+tags: 五指,cms,官网
 grammar_cjkRuby: true
 ---
 
