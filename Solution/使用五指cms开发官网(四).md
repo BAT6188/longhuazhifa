@@ -76,8 +76,8 @@ grammar_cjkRuby: true
 {php print_r($content)}
 {php print_r($thumb)}
 ```
-> 顾名思义 title 就是标题，content就是内容，其它字段参考单页注释，另有copyfrom 来源 访问量需要用 <lable id="hits">0</lable> 来得到，还需要引入一个js文件：`<script type="text/javascript" src="{WEBURL}index.php?f=stat&id={$id}&cid={$cid}"></script>` 
-> 因为页面是通过列表跳转，所以我们不需要其它操作，我们只要在配置的跳转的指定页面中编写获取字段就好
+> 顾名思义 title 就是标题，content就是内容，其它字段参考单页注释，另有copyfrom 来源 访问量需要用 <lable id="hits">0</lable> 来得到，还需要引入一个js文件：`<script type="text/javascript" src="{WEBURL}index.php?f=stat&id={$id}&cid={$cid}"></script>` <br/>
+> 因为页面是通过列表跳转，所以我们不需要其它操作，我们只要在配置的跳转的指定页面中编写获取字段就好<br/>
 > {WEBURL} 表示网站站点位置，参考后台配置，{R}资源根目录
  
  另外上面介绍的都是文章模型，下面来解析图片模型
